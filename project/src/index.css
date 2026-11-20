@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'DM Sans', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: #f2f4ff;
+  background: #080b1b;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html { min-width: 320px; background: #080b1b; }
+body { min-width: 320px; min-height: 100vh; margin: 0; }
+
+@layer base {
+  :root {
+    --background: 232 38% 7%;
+    --foreground: 233 45% 96%;
+    --card: 231 34% 12%;
+    --card-foreground: 233 45% 96%;
+    --popover: 231 34% 12%;
+    --popover-foreground: 233 45% 96%;
+    --primary: 239 78% 68%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 232 30% 17%;
+    --secondary-foreground: 233 45% 96%;
+    --muted: 231 30% 17%;
+    --muted-foreground: 226 28% 62%;
+    --accent: 246 75% 67%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 80% 65%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 230 28% 23%;
+    --input: 230 28% 23%;
+    --ring: 239 78% 68%;
+    --radius: .75rem;
+  }
+}
+/* VERITAS AI LIGHT THEME */
+
+html.light {
+  color-scheme: light;
+  background: #f8f9ff;
+}
+
+html.light body {
+  background: #f8f9ff;
+  color: #20243a;
+}
+
+html.light {
+  --background: 225 40% 98%;
+  --foreground: 232 30% 15%;
+
+  --card: 0 0% 100%;
+  --card-foreground: 232 30% 15%;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 232 30% 15%;
+
+  --primary: 239 78% 60%;
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 225 30% 94%;
+  --secondary-foreground: 232 30% 15%;
+
+  --muted: 225 25% 93%;
+  --muted-foreground: 225 15% 42%;
+
+  --accent: 246 75% 92%;
+  --accent-foreground: 239 78% 40%;
+
+  --border: 225 20% 85%;
+  --input: 225 20% 85%;
+  --ring: 239 78% 60%;
+}
